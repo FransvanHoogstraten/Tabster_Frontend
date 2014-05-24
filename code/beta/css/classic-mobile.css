@@ -1,0 +1,67 @@
+.LR-box-wrapper {
+	*width: 300px;
+	width: 95%;
+	margin: 10px auto 50px;
+}
+
+input.LR-sign-up-input {
+	width:100%;
+}
+
+button.LR-sign-up-submit.consumption_button {
+	width: 65%;  /* found through experiment ==> iphone 3g*/
+	padding: 2px 2px;
+}	
+
+.LR-extra-fields input.LR-sign-up-input{
+	width: 100%;
+}
+
+.LR-pwd-lr, .Beta_request_access {
+	position: relative;
+	background:transparent;
+	padding: 0;
+	height: 36px;
+	float: right;
+}
+
+.LR-pwd-lr, .Beta_request_access  a {
+	display: block;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.img-confirmation {
+	width: 150px;
+}
+
+
+.LR-site-logo {
+	width:90%;
+	margin:0 auto;
+}
+
+.LR-site-logo img {
+	max-width:100%;
+}
+
+.LR-extra-fields .LR-sign-up-submit {
+	width:100%;
+}
+
+/* load smaller background image*/
+.LR-bg-img{
+	background-image: url(../pics/restaurant_background2_small.jpg);
+	background-image: url(../pics/background1.jpg);
+}
+
+.LR-site-logo {
+	width: 35%;
+}
+.infobox-container{
+	display: none;
+}
+.create-consumption-tab-extract{
+	display: none;
+}

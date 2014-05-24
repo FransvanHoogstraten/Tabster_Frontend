@@ -1,0 +1,657 @@
+   body {
+	margin:0;
+	padding:0;
+}
+/* To remove borders in IE*/
+img{
+	border-width: 0;
+}
+
+select {
+    overflow:hidden;
+    width: 120%;
+}
+
+input,input:focus,input:active{
+	outline:none;
+}
+
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Plaatje bij confirmation --> OK of NOK */
+.img-confirmation {
+	width: 200px;
+}
+
+/* Timestamp in Tab Details overzicht */
+.tab_details{
+	text-align: left;
+}
+
+.tab_details.timestamp {
+	color: white;
+	font-style: italic;
+	font-size: 11px;
+	margin-right: 5px;
+	margin: 2px 0px;
+}
+.tab_details.date {
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	margin: 2px auto;
+}
+.tab_details.amount {
+	color: white;
+	margin-left: 10px;
+}
+
+.tab_details.system_messages {
+	margin: 5px 0;
+}
+
+
+.LR-bg-img {
+	content:"";
+	margin:0;
+	padding:0; 
+	background-repeat:none;
+	background-color: rgba(255, 255, 255, 0);   /* Dit regelt de sterkte van de zwarte background overlay*/
+	background-size: cover;
+	background-position: center center;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	height:100%;
+	width:100%;
+	position: absolute;
+	background-attachment: fixed;
+	position: fixed;
+	z-index:0;
+	top:0;
+	left:0;
+	background-repeat: none;
+}
+
+.LR-content {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	color:#fff;
+	font-size:14px;
+  font-weight: 300;
+	width: 100%;
+	min-height: 100%;
+	z-index: 0;
+	position: absolute;
+}
+
+
+p {
+	margin:10px 0;
+	line-height: 1.5em;
+}
+
+.LR-announcement-bar {
+	width: 100%;
+	background: #000;
+	background: rgba(0, 0, 0, 0.85);
+	text-align: center;
+	padding: 6px 0;
+	position: relative;
+	z-index: 2;
+}
+
+.LR-announcement-bar a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.LR-announcement-bar .LR-announcement{
+	margin:0;
+	font-size: 13px;
+	font-weight: 300;
+	text-shadow: 0 1pt rgba(0, 0, 0, .5);
+}
+
+.LR-box-wrapper {
+    width: 430px;
+/* This margin controls the position of the 'centre console' */
+    margin: 20px auto 50px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.LR-box {
+	
+	background: rgba(0, 0, 0, 0.85);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-align:center;
+
+} 	
+
+.LR-box-container {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* Here we set the main margin */
+.LR-box-inner {
+	width:100%;
+}
+
+.LR-site-title {
+	padding:0 0 20px;
+	margin: 0;
+}
+
+.LR-site-logo {
+	padding:0 0 0;
+	width: 100%;
+	max-width: 352px;
+	margin: 0 auto;
+}
+
+.LR-site-logo img{
+	padding:0 0 20px;
+	max-width:100%;
+}
+
+
+.LR-sign-up-container {
+	position: relative;
+	width: 100%;
+}
+
+.LR-sign-up-container-inner {
+    margin: 0 0 30px;
+    width: 98%;
+}
+.LR-sign-up-container-inner.black {
+	padding: 3px;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.LR-sign-up-label {
+	font-style: italic;
+}
+
+input.LR-sign-up-input, button.LR-sign-up-input{
+	margin: 6px 0px;
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	background-color: #1D1C19;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#dddddd), to(#eeeeee));
+	background-image: -moz-linear-gradient(top, #dddddd, #eeeeee);
+	background-image: -ms-linear-gradient(top, #dddddd, #eeeeee);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #eeeeee));
+	background-image: -webkit-linear-gradient(top, #dddddd, #eeeeee);
+	background-image: -o-linear-gradient(top, #dddddd, #eeeeee);
+	background-image: linear-gradient(top, #dddddd, #eeeeee);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#eeeeee');
+	font-size: 15px;
+	color: #5c5c5c;  
+	padding: 13px 14px 13px 14px !important;
+	border: 0 !important;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	height: 60px;
+	line-height: 18px;
+	width: 100%;
+	
+	
+/* Box sizing makes sure all elements are considered in the same boxmodel */	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+input.LR-sign-up-input.side-by-side{
+	width: 80%;
+	float: left;
+	margin-right: 0;
+	*margin-left: 25px; /* this is to counter the left float */
+	border: 0;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.LR-sign-up-input:focus {
+	 outline: 0;
+	-webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+} 
+
+
+
+.LR-sign-up-submit{
+	margin: 6px 0px;
+	cursor:pointer;
+	z-index: 2;
+	right: 0;
+	top:0;
+	border: none;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #CDA349;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D8B571), to(#CDA349));
+	background-image: -webkit-linear-gradient(top, #D8B571, #CDA349);
+	background-image: -o-linear-gradient(top, #D8B571, #CDA349);
+	background-image: linear-gradient(to bottom, #D8B571, #CDA349);
+	background-image: -moz-linear-gradient(top, #D8B571, #CDA349);
+	background-repeat: repeat-x;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#D8B571', endColorstr='#CDA349', GradientType=0);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 17px;
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-bottomleft:4px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	text-align: center;
+	height: 60px;
+	line-height: 18px;
+	width: 100%;
+	min-width: 55px;
+
+	/* Box sizing makes sure all elements are considered in the same boxmodel */	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+
+
+
+.LR-sign-up-submit.side-by-side{
+	width: 20%;
+	float: left;
+	margin-left: 0 ;
+	border:0 ;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+/* This is CSS for Buttons in the 'TABS' overview */
+button.LR-sign-up-submit.tab_button{
+	padding: 3px 15px !important;
+	font-size: 17px;
+	text-align: left;
+	text-decoration: none;
+	
+}
+button.LR-sign-up-submit.tab_button.not_active{
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#666666), to(#333333));
+	background-image: -webkit-linear-gradient(top, #666666, #333333);
+	background-image: -o-linear-gradient(top, #666666, #333333);
+	background-image: linear-gradient(to bottom, #666666, #333333);
+	background-image: -moz-linear-gradient(top, #666666, #333333);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#666666', endColorstr='#333333', GradientType=0);
+}
+
+/* Each consumption is clickable. This next CSS is for that button */
+button.LR-sign-up-submit.consumption_button {
+	padding: 0px 5px!important; 
+	font-size: 12px;
+	text-align: left;
+	text-decoration: none;
+	height: 25px;
+	width: 300px;
+	margin: 2px 0px;
+	white-space:nowrap;
+}
+input.LR-sign-up-submit.create_consumption_button {
+	padding: 0px 5px!important; 
+	font-size: 12px;
+	text-decoration: none;
+	width: 48%;
+	margin: 2px 2px; 
+	white-space:pre;
+	text-transform: none;
+}
+input.LR-sign-up-submit.no_of_consumptions_button {
+	padding: 0px 5px!important; 
+	font-size: 20px;
+	text-decoration: none;
+	width: 18%;
+	margin: 2px 2px; 
+	background-color: #444444;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555555), to(#444444));
+	background-image: -webkit-linear-gradient(top, #555555, #444444);
+	background-image: -o-linear-gradient(top, #555555, #444444);
+	background-image: linear-gradient(to bottom, #555555, #444444);
+	background-image: -moz-linear-gradient(top, #555555, #444444);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#555555', endColorstr='#444444', GradientType=0);
+}
+input.LR-sign-up-submit.no_of_consumptions_button:hover, input.LR-sign-up-submit.no_of_consumptions_button.selected {
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#111111), to(#111111));
+	background-image: -webkit-linear-gradient(top, #111111, #111111);
+	background-image: -o-linear-gradient(top, #111111, #111111);
+	background-image: linear-gradient(to bottom, #111111, #111111);
+	background-image: -moz-linear-gradient(top, #111111, #111111);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#111111', endColorstr='#111111', GradientType=0);
+}
+
+
+
+select.LR-sign-up-input{
+	margin: 6px 0px;
+	cursor:pointer;
+	z-index: 1;
+	right: 0;
+	top:0;
+	border: none;
+	color: #ffffff;
+	padding: 13px 15px;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#eeeeee), to(#ffffff));
+	background-image: -moz-linear-gradient(top, #eeeeee, #ffffff);
+	background-image: -ms-linear-gradient(top, #eeeeee, #ffffff);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee, #ffffff);
+	background-image: -o-linear-gradient(top, #eeeeee, #ffffff);
+	background-image: linear-gradient(top, #eeeeee, #ffffff);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
+	font-size: 15px;
+	color: #5c5c5c;  
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-bottomleft:4px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	text-align: center;
+	height: 60px;
+	line-height: 18px;
+	width: 100%;
+	min-width: 55px;
+	-webkit-appearance: none;
+}
+
+select.LR-sign-up-input.tab_level {
+	background-color: #FFFFFF !important;
+	font-size: 14px;
+	font-weight: bold;
+	width: auto;
+	padding: 5px;
+	height: auto;
+	background: none;
+	color: black;
+	
+}
+select.LR-sign-up-input.select-small {
+	padding-top: 3px; 
+	padding-bottom: 3px;
+	height: auto;
+}
+
+
+.LR-sign-up-submit:hover, .LR-sign-up-submit[disabled] {
+	color: #ffffff;
+	background-color: #CDA349;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CDA349), to(#CDA349));
+	background-image: -webkit-linear-gradient(top, #CDA349, #CDA349);
+	background-image: -o-linear-gradient(top, #CDA349, #CDA349);
+	background-image: linear-gradient(to bottom, #CDA349, #CDA349);
+	background-image: -moz-linear-gradient(top, #CDA349, #CDA349);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#CDA349', endColorstr='#CDA349', GradientType=0);
+}
+
+.LR-sign-up-submit:active, .LR-sign-up-submit:active {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D8B571), to(#CDA349));
+  background-image: -webkit-linear-gradient(top, #D8B571, #CDA349);
+  background-image: -o-linear-gradient(top, #D8B571, #CDA349);
+  background-image: linear-gradient(to bottom, #D8B571, #CDA349);
+  background-image: -moz-linear-gradient(top, #D8B571, #CDA349);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#D8B571', endColorstr='#CDA349', GradientType=0);
+}
+
+
+/* Upload knop van foto:*/
+.LR-extra-fields input[type="file"].LR-sign-up-input{
+	color: #ffffff;
+	padding: 13px 15px !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #FF3300;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF6633), to(#FF3300));
+	background-image: -webkit-linear-gradient(top, #FF6633, #FF3300);
+	background-image: -o-linear-gradient(top, #FF6633, #FF3300);
+	background-image: linear-gradient(to bottom, #FF6633, #FF3300);
+	background-image: -moz-linear-gradient(top, #FF6633, #FF3300);
+	background-repeat: repeat-x;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#FF6633', endColorstr='#FF3300', GradientType=0);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 17px;
+	
+}
+
+/* Widget at Beta screen, pointing to SignUp page */
+.Beta_goto_page a {
+	visibility: hidden;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 10000;
+	display:block;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius:0;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft:0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius:0;
+	height:50px;
+	width:150px;
+	padding: 1px 3px;
+	background:rgb(0,0,0) no-repeat center center;
+	background:rgba(0, 0, 0, 0.85) url(../pics/Beta.png) no-repeat center center;
+	background-size:40%;
+	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pics/Beta.png',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pics/Beta.png',sizingMethod='scale')";
+	-ms-filter: "background:rgb(0, 0, 0) no-repeat center center;";
+	
+}
+
+
+/* Widget at Beta screen, pointing to SignUp page */
+
+.Beta_request_access a {
+	position:fixed;
+	bottom:0;
+	right:0;
+	z-index: 10000;
+	display:block;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius:0;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft:0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius:0;
+	height:50px;
+	width:150px;
+	padding: 1px 3px;
+	background:rgb(0,0,0) no-repeat center center;
+	background:rgba(0, 0, 0, 0.85) url(../pics/request_access.png) no-repeat center center;
+	background-size:55%;
+
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pics/request_access.png',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pics/request_access.png',sizingMethod='scale')";
+	-ms-filter: "background:rgb(0, 0, 0) no-repeat center center;";
+
+}
+
+/* Widget at Beta screen, pointing to Hospitality Info */
+.hospitality_info a {
+	position:fixed;
+	bottom:0;
+	left:0;
+	z-index: 10000;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius:0;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft:0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius:0;
+	height:50px;
+	width:150px;
+	padding: 1px 3px;
+	background:rgb(0,0,0) no-repeat center center;
+	background:rgba(0, 0, 0, 0.85) url(../pics/hospitality_info.png) no-repeat center center;
+	background-size:55%;
+	z-index: 10;
+	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pics/hospitality_info.png',sizingMethod='scale');
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pics/hospitality_info.png',sizingMethod='scale')";
+	-ms-filter: "background:rgb(0, 0, 0) no-repeat center center;";
+	
+}
+
+/* Widget at Beta screen, pointing to Hospitality Info */
+.contact_info a {
+	position:fixed;
+	bottom:0;
+	right:0;
+	z-index: 10000;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius:0;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft:0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius:0;
+	height:50px;
+	width:150px;
+	padding: 1px 3px;
+	background:rgb(0,0,0) no-repeat center center;
+	background:rgba(0, 0, 0, 0.85) url(../pics/contact.png) no-repeat center center;
+	background-size:70%;
+	z-index: 10;
+	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pics/hospitality_info.png',sizingMethod='scale');
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pics/hospitality_info.png',sizingMethod='scale')";
+	-ms-filter: "background:rgb(0, 0, 0) no-repeat center center;";
+	
+}
+
+.img-left-float{
+	margin-left: 20px;
+	margin-top: 100px;
+	z-index:1; 
+	position: absolute; 
+	float: left;"	
+}
+.img-right-float{
+	margin-right: 20px;
+	margin-top: 100px;
+	z-index:1; 
+	position: absolute; 
+	float: right;	
+}
+
+
+
+
+/* INFOBOX CSS */
+
+.infobox-container {
+	*display: none;
+    position: relative;
+    margin: 25px;
+	margin-top: 100px;
+    padding: 0;
+    width: auto;
+}
+.infobox-container.left {
+	float: left;
+}
+.infobox-container.right {
+    float: right;
+}
+
+.infobox {
+    width: 330px;
+    padding: 10px 5px 5px 5px;
+    margin:10px;
+    position: relative;
+    z-index: 90;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    background: #000000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+    background-image: -moz-linear-gradient(top,#000000,#000000);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+    color: #fff;
+    font-size: 90%;
+}
+.infobox h3 {
+    position: relative;
+    width: 350px;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 0;
+    left: -15px;
+    z-index: 100;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.55);
+    background: #3198dd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#D8B571), to(#CDA349));
+    background-image: -moz-linear-gradient(top,#D8B571,#CDA349);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#D8B571', endColorstr='#CDA349', GradientType=0);
+    font-size: 160%;
+    text-align: center;
+    text-shadow: #2187c8 0 -1px 1px;
+    font-weight: bold;
+}
+ 
+.infobox a {
+    color: #35b0ff;
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+}
+.infobox a:hover, .infobox a:focus {
+    text-decoration: none;
+    border-bottom: 1px dotted #35b0ff;
+}
